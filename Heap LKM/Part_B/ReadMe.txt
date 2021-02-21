@@ -1,7 +1,3 @@
-Assignment 1: Part B
-P Amshumaan Varma - 17CS30025
-N Nikhil Thatha - 17CS10054
-
 Note 1: 
 
 sudo insmod ...
