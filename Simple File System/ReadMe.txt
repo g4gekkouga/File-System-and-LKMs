@@ -1,16 +1,3 @@
-Programming Assignment 2
-
-- P Amshumaan Varma (17CS30025)
-- T N Nikhil (17CS10054)
-
-Note : We tried to free the memory as soon its ude is done. But not sure why freeing 
-some independent memory is causing free corrupt value errors. So malloc() is giving segfault sometimes.
-But the same test code will run again freshly. Not sure why this was happening. We tried to rectify this 
-error in many ways but it wasnt happening. But the logic was correct as it was running successfully
-the same test file randomly.
-
-Please consider the code for grading if any part causes this error and fails the test case. Thank You.
-
 Directory Structure Implementation :
 
 The directory structure is implemented as follows -
@@ -38,7 +25,7 @@ one file metadata.
 - the code will recursive check the files x1, x2 and create a 
 file with types directory and insert in x2 data.
 
-- If any x1 or x2 is absent, it ll give an error.
+- If any x1 or x2 is absent, it will give an error.
 
 - Similar with the read and write files. write file will initialize a file
 if not already present. (pleas give as x1/x2/x3.ext or /x1/x2/x3.ext)
@@ -51,7 +38,3 @@ tried to access, they will be absent.
 Test Files :
  - Included 3 sample test files.
  - One for each PART-A, Part-B, Part-C.
-
-Please go through the commented code for better understanding.
-
-THANK YOU.
